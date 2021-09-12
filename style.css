@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root
+{
+    --primary-color:#6B7280
+}
+
+body
+{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    
+}
+#waiting 
+{
+    display: none;
+    width: 10rem;
+    margin: auto;
+    margin-top:3rem;
+}
+h1
+{
+    color:var(--primary-color);
+    margin-top:10rem
+}
+
+label
+{
+    color:var(--primary-color);
+    font-size: 1.5rem;
+    font-size: large;
+    /*A block-level element always starts on a new line and takes up the full width available*/
+    display: block;
+  }
+  
+  input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+  }
+
+  button
+  {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+
+  #output
+  {
+      color:var(--primary-color);
+      font-size: larger;
+      font-weight: bold;
+      margin-top: 3rem;
+  }
